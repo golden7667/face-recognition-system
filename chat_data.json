@@ -1,0 +1,18 @@
+[
+  {
+    "question": "how to register face",
+    "answer": "To register a face, go to 'Register / Add User', enter ID and Name, then capture multiple face images."
+  },
+  {
+    "question": "how to train data",
+    "answer": "After registering faces, click on 'Train Data' and wait until training completes."
+  },
+  {
+    "question": "camera not opening",
+    "answer": "Check the webcam connection, close other apps using the camera, and ensure drivers are installed."
+  },
+  {
+    "question": "detection not working",
+    "answer": "Make sure there is good lighting, your face is fully visible, and the model has been trained."
+  }
+]

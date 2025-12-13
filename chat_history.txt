@@ -1,0 +1,21 @@
+
+
+=== New Chat Session ===
+Bot: Hello! I am your trained help bot.
+- Ask me about: register, train data, camera, detection, etc.
+- To teach me, type: learn: your question | your answer
+
+=== New Chat Session ===
+Bot: Hello! I am your trained help bot.
+- Ask me about: register, train data, camera, detection, etc.
+- To teach me, type: learn: your question | your answer
+
+=== New Chat Session ===
+Bot: Hello! I am your trained help bot.
+- Ask me about: register, train data, camera, detection, etc.
+- To teach me, type: learn: your question | your answer
+
+=== New Chat Session ===
+Bot: Hello! I am your trained help bot.
+- Ask me about: register, train data, camera, detection, etc.
+- To teach me, type: learn: your question | your answer
