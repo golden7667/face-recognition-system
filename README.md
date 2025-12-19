@@ -73,6 +73,23 @@ This project allows users to **register students, collect face images, train a f
 
 
 ---
+🛠️ Technologies Used
+
+Python 3
+
+Tkinter – GUI
+
+OpenCV – Face detection & recognition
+
+Pillow (PIL) – Image handling
+
+MySQL – Database
+
+NumPy
+
+ReportLab – PDF export
+
+Matplotlib – Attendance graphs
 
 ## 🗂️ Project Structure
 
@@ -95,5 +112,7 @@ Face-Recognition-Attendance-System/
 ├── .env                    # Database configuration
 ├── requirements.txt        # Python dependencies
 └── README.md
+------
 
- 
+
+
