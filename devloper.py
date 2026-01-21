@@ -1,7 +1,6 @@
 from tkinter import *
 from PIL import Image, ImageTk
 import webbrowser 
-import cv2 
 import os
 
 

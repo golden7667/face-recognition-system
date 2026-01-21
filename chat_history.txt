@@ -19,3 +19,15 @@ Bot: Hello! I am your trained help bot.
 Bot: Hello! I am your trained help bot.
 - Ask me about: register, train data, camera, detection, etc.
 - To teach me, type: learn: your question | your answer
+
+=== New Chat Session ===
+Bot: Hello! I am your help bot.
+You can ask me about: camera, register, train data, detection, error, or lighting.
+You: hello
+Bot: Hello! How can I help you with the face detection system?
+You: name
+Bot: I didn't understand that.
+Try asking about: camera, register, train data, detection, error, or lighting.
+You: trand
+Bot: I didn't understand that.
+Try asking about: camera, register, train data, detection, error, or lighting.

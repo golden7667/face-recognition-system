@@ -2,5 +2,9 @@
     "golden": {
         "username": "golden",
         "password": "$2b$12$Z2vjDumZQgRgkbOApjhua.rZDKAnAedJqTVMTV8RDUuAp/4wiSoLG"
+    },
+    "goldenkr": {
+        "username": "goldenkr",
+        "password": "$2b$12$1W8jDr6jLjCy6A.4gcPFq.Wj87PpnxieU0StcTCQu8.FAq/0m6H/q"
     }
 }
