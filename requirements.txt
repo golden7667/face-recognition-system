@@ -1,0 +1,8 @@
+opencv-contrib-python
+mysql-connector-python
+pillow
+bcrypt
+python-dotenv
+numpy
+matplotlib
+reportlab

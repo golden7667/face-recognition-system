@@ -400,7 +400,7 @@ class Students:
         
         DB_HOST = os.environ.get("DB_HOST", "localhost")
         DB_USER = os.environ.get("DB_USER", "root")
-        DB_PASS = os.environ.get("DB_PASS", "golden1234")
+        DB_PASS = os.environ.get("DB_PASS", "golden123")
         DB_NAME = os.environ.get("DB_NAME", "facedb")
        
 

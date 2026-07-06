@@ -22,16 +22,18 @@ matplotlib.use("Agg")
 from matplotlib.figure import Figure
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
- 
+from dotenv import load_dotenv
+load_dotenv()
+
 try:
     import cv2
 except Exception:
     cv2 = None
  
-DB_HOST = "localhost"
-DB_USER = "root"
-DB_PASS = "golden1234"
-DB_NAME = "facedb"
+DB_HOST = os.environ.get("DB_HOST", "localhost")
+DB_USER = os.environ.get("DB_USER", "root")
+DB_PASS = os.environ.get("DB_PASS", "golden123")
+DB_NAME = os.environ.get("DB_NAME", "facedb")
 
  
 SCHED_CONFIG_FILE = "backup_scheduler_config.json"

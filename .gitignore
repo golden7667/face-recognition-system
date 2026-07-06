@@ -4,4 +4,4 @@ __pycache__/
 *.session.sql
 autosave/global/*_*
 autosave/thumbs/
-
+.env

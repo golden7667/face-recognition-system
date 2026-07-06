@@ -106,17 +106,17 @@ class Devloper:
         # SOCIAL LINKS
                 # SOCIAL LINKS
         def open_github():
-            webbrowser.open_new("https://github.com/golden2804")
+            webbrowser.open_new("https://github.com/golden7667")
 
         def open_linkedin():
-            webbrowser.open_new("https://www.linkedin.com/in/golden-kumar-891567246/")
+            webbrowser.open_new("https://www.linkedin.com/in/golden-kr-singh/")
 
         def open_instagram():
-            webbrowser.open_new("https://www.instagram.com/its_ethic_gdk/")
+            webbrowser.open_new("https://www.instagram.com/its_gold_d_roger?igsh=MXF2bm1tOThlb3V2MQ%3D%3D&utm_source=qr")
 
 
         def open_portfolio():
-            webbrowser.open_new("https://your-portfolio-site.com")
+            webbrowser.open_new("https://portfolio-goldenkumar-26.vercel.app")
 
         btn_style = {
             "font": ("times new roman", 14, "bold"),
@@ -140,7 +140,7 @@ class Devloper:
         portfolio_btn.place(x=400, y=420, width=120, height=35)
 
                 
-        img = Image.open("image\devloper\IMG_0157 (1).jpg")
+        img = Image.open("image/devloper/IMG_0157 (1).jpg")
         img = img.resize((450, 450), Image.LANCZOS)
         self.photo_dev = ImageTk.PhotoImage(img)
 
