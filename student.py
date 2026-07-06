@@ -757,8 +757,9 @@ class Students:
 
                     self.ver_radiobtn.set("yes")
                     messagebox.showinfo("Saved", f"Photo saved as {filename}", parent=self.root)
-                finally:
-                    break
+                except Exception as e:
+                    messagebox.showerror("Error", f"Failed to save photo: {e}", parent=self.root)
+                break
 
             elif key == ord('q'):
                 break
@@ -816,33 +817,6 @@ class Students:
             messagebox.showerror("Error", f"Could not save uploaded image: {e}", parent=self.root)
         finally:
             self.fetch_data()
-
-            sid = self.ver_studentid.get().strip()
-            if sid == "":
-                messagebox.showerror("Error", "Please enter Student ID before uploading photo.", parent=self.root)
-                return
-
-            file_path = filedialog.askopenfilename(
-                title="Select Image",
-                filetypes=[("Image Files", "*.jpg *.jpeg *.png")]
-            )
-
-            if not file_path:
-                return
-
-            img = cv2.imread(file_path)
-            if img is None:
-                messagebox.showerror("Error", "Invalid image file.", parent=self.root)
-                return
-
-        os.makedirs("data", exist_ok=True)
-        filename = f"data/{sid}_upl.jpg"
-        resized = cv2.resize(img, (300, 300))
-        cv2.imwrite(filename, resized)
-
-        self.ver_radiobtn.set("yes")
-        messagebox.showinfo("Saved", f"Image uploaded as {filename}", parent=self.root)
-        self.fetch_data()
     
 
 
